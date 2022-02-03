@@ -1,0 +1,1 @@
+Yellow,Taxi,2.5L,455,56343,53455,Mar,2020,3,2000,0,01-02-2022,0,0,Fill only if sold,100,600,2800,./data/images/Taxi.jpg,10,2,3,12,12,0,0034506,10,Ready

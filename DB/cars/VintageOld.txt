@@ -1,0 +1,1 @@
+Teal,VintageOld,2L,234,34455,4535,Jan,2015,3,1000,1,01-02-2022,0,0,Fill only if sold,1000,6000,25000,./data/images/VintageOld.jpg,100,2,2,12,2,0,0002200,10,Ready

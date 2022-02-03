@@ -1,0 +1,1 @@
+Blue,Mustang,3L,543,3123,7887,02,2009,3,1500,1,01-01-2022,0,0,Fill only if sold,1000,6500,28000,./data/images/Mustang.jpg,100,1,2,2,20,0,0001000,10,Ready
