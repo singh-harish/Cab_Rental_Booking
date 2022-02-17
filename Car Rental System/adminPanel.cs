@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Xml.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Windows.Forms;
 
 namespace Car_Rental_System
 {
@@ -86,21 +79,18 @@ namespace Car_Rental_System
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
-            button1_Click(sender, e);
+
         }
 
         private void adminPanel_Load(object sender, EventArgs e)
         {
             DirectoryInfo d = new DirectoryInfo(@"./data/users/admins/");
             FileInfo[] Files = d.GetFiles("*.txt");
-            foreach(FileInfo file in Files)
+            foreach (FileInfo file in Files)
             {
                 comboBox1.Items.Add(file.Name);
                 comboBox2.Items.Add(file.Name);
             }
-            //comboBox1.DataSource = Files;
-            //comboBox2.DataSource = Files;
-            //comboBox1.DisplayMember = "Admins";
 
         }
 
@@ -110,7 +100,7 @@ namespace Car_Rental_System
             if (dialogResult == DialogResult.Yes)
             {
                 File.Delete("./data/users/admins/" + comboBox1.Text);
-                button1_Click(sender, e);
+
             }
             else if (dialogResult == DialogResult.No)
             {

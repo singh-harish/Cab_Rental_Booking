@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
 namespace Car_Rental_System
 {
@@ -93,7 +88,7 @@ namespace Car_Rental_System
                     sw.WriteLine(data);
                 }
                 sw.Close();
-                MessageBox.Show("Car Added/Updated into Database");
+                MessageBox.Show("Car Added into Database");
                 if (dlg.FileName != "")
                 {
                     File.Copy(dlg.FileName, "./data/images/" + textBox8.Text + ".jpg", true);

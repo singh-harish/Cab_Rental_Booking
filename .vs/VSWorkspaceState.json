@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Car Rental System"
   ],
-  "SelectedNode": "\\Car Rental System.sln",
+  "SelectedNode": "\\Car Rental System\\adminPanel.cs",
   "PreviewInSolutionExplorer": false
 }
